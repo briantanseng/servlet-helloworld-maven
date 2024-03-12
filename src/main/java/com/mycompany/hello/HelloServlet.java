@@ -1,9 +1,12 @@
 package com.mycompany.hello;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.PrintWriter;
 
-import javax.servlet.http.*;
-import javax.servlet.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class HelloServlet extends HttpServlet {
   public void doGet (HttpServletRequest req,
@@ -16,13 +19,4 @@ public class HelloServlet extends HttpServlet {
     out.close();
   }
 
-  public void doPost (HttpServletRequest req,
-    HttpServletResponse res)
-    throws ServletException, IOException
-    {
-    PrintWriter out = res.getWriter();
-
-    out.println("Hello, world!");
-    out.close();
-    }
 }
