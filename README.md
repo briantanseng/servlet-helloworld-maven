@@ -130,7 +130,7 @@ mvn war:war
 ```
 The following war file will be generated
 ```
-~/.sdkman/candidates/tomcat/10.1.14/webapps/servlet-helloworld-maven-1.0-SNAPSHOT.war
+[YOUR_PROJECT_DIRECTORY]/target/servlet-helloworld-maven-1.0-SNAPSHOT.war
 ```
 ### Deploy the war file
 
