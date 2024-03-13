@@ -147,10 +147,10 @@ TODO: PUT SCREENSHOT HERE
 
 ## References
 ### Tutorials by Baeldung
-https://www.baeldung.com/java-sdkman-intro
-https://www.baeldung.com/intro-to-servlets
-https://www.baeldung.com/java-servlets-containers-intro
-https://www.baeldung.com/maven-generate-war-file
+* https://www.baeldung.com/java-sdkman-intro
+* https://www.baeldung.com/intro-to-servlets
+* https://www.baeldung.com/java-servlets-containers-intro
+* https://www.baeldung.com/maven-generate-war-file
 
 ### Maven Tutorial
-https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
